@@ -13,10 +13,11 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
     //atributo
     protected WebDriver driver;
+
     @BeforeClass
     public void setUp(){
         //WebDriverManager.chromedriver().setup();
-        WebDriverManager.iedriver().setup();
+        //WebDriverManager.iedriver().setup();
         driver = new InternetExplorerDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);

@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class CargaDeEquipoSimcard extends TestBase {
 
-    protected  EBSHome home;
+    protected EBSHome home;
 
     @Test
     public void CargaDeEquipos(){
