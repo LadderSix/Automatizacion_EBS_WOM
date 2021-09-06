@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 public class EBSHome extends SeleniumBase {
 
     public EBSHome(WebDriver driver){
+
         super(driver);
     }
 

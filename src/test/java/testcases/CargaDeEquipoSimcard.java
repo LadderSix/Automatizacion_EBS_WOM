@@ -1,7 +1,6 @@
 package testcases;
 
 import CargaDeDatos.pageobject.pages.EBSHome;
-
 import org.junit.Test;
 
 

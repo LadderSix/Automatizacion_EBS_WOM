@@ -54,7 +54,6 @@ public class SeleniumBase {
     }
 
     public void goToUrl(String url){
-
         driver.get(url);
     }
 
